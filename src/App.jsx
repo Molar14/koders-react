@@ -100,7 +100,7 @@ function App() {
         
         <div className="p-4 flex flex-col gap-2">
           {
-            Koders.length === 0 && <p className="text-white/50">No tienes tareas pendientes 🤷‍♂️</p>
+            Koders.length === 0 && <p className="text-white/50">No hay koders 🤷‍♂️</p>
           }
           {
             Koders.map((todo, idx)=> {
